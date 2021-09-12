@@ -1,3 +1,4 @@
+<div class="d-flex flex-column">
 <!--MENU-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
     <!--Cada uno de las secciones de navbar-->
@@ -11,10 +12,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/home">Inicio</a>
+            <a class="nav-link active" aria-current="page" [routerLink]="['home']">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/principal">pagina</a>
+            <a class="nav-link active" aria-current="page" [routerLink]="['carrito']">carrito</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -25,3 +26,4 @@
       <router-outlet></router-outlet>
     </div>
   </nav>
+</div>

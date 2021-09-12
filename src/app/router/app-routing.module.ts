@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { CarritoComponent } from '../pagina/pages/carrito/carrito.component';
 import { HomeComponent } from '../pagina/pages/home/home.component';
 import { PrincipalComponent } from '../pagina/pages/principal/principal.component';

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { FooterComponent } from './footer/footer.component';
 import { SiderbarComponent } from './siderbar/siderbar.component';
 import { NavComponent } from './nav/nav.component';
